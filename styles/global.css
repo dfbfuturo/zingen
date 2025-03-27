@@ -14,7 +14,7 @@
 }
 
 :root {
-  --bg-cololor: #09090B;
+  --bg-color: #09090B;
   --surface-color: #18181B;
   --stroke-color: #27272A;
   --text-color-secondary: #A1A1AA;
@@ -49,10 +49,12 @@ html {
 }
 
 body {
-  background-color: var(--bg-cololor);
+  background-color: var(--bg-color);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   line-height: 1.2;
   color: var(--text-color-primary);
   font-weight: var(--fw-bold);
@@ -80,7 +82,7 @@ ul[role=list] {
   list-style: none;
 }
 
-@media (width >= 80em) {
+@media (width >=80em) {
   :root {
     --fs-lg: 2rem;
     --fs-xl: 3rem;
